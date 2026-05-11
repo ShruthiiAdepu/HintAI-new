@@ -91,7 +91,7 @@ const HomePage = () => {
             onSubmit={handleSubmit}
             sx={{ 
               p: 3, 
-              borderTop: '1px solid #3c4043',
+              borderTop: '1px solid #000000',
               display: 'flex',
               justifyContent: 'center'
             }}
@@ -111,7 +111,7 @@ const HomePage = () => {
                   ),
                   style: { 
                     color: darkTheme.palette.text.primary,
-                    backgroundColor: '#303134',
+                    backgroundColor: '#000000',
                     borderRadius: 15
                   }
                 }}
